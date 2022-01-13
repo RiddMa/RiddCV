@@ -96,14 +96,6 @@ export default {
     try {
       await this.$store.dispatch("initStore");
       this.onResize();
-      // let { status, data } = await this.$store.dispatch("heartbeat");
-      // if (status !== 200 || data.status !== "OK") {
-      //   this.$store.commit("showToast", {
-      //     type: "error",
-      //     message: "无法连接至服务器,请联系管理员",
-      //     timer: -1,
-      //   });
-      // }
     } catch (err) {
       console.log(err);
     }
@@ -114,31 +106,7 @@ export default {
       //找到to.path和from.path在routerDeep数组中的下标
       let toPos = routerPosition.indexOf(to.path);
       let fromPos = routerPosition.indexOf(from.path);
-      //临时导航下标确定
-      if (from.path.startsWith("/edit")) {
-        fromPos = 3;
-      } else if (from.path.startsWith("/view")) {
-        fromPos = 2;
-      }
-      if (to.path.startsWith("/edit")) {
-        toPos = 3;
-      } else if (to.path.startsWith("/view")) {
-        toPos = 2;
-      }
       this.transitionDirection = toPos > fromPos ? "right" : "left"; //正常导航方向选择
-      //类弹窗导航方向选择
-      if (to.path === "/login") {
-        this.transitionDirection = "up";
-      }
-      if (from.path === "/login") {
-        this.transitionDirection = "down";
-      }
-      if (to.path.startsWith("/poster")) {
-        this.transitionDirection = "up";
-      }
-      if (from.path.startsWith("/poster")) {
-        this.transitionDirection = "down";
-      }
     },
   },
 };
