@@ -1,17 +1,21 @@
 <template>
-  <v-container v-if="fitPhone" id="aboutBase" fluid class="mx-0 mt-2 mb-8 pa-0">
-    <v-row class="ma-0 pa-0">
+  <v-container id="cv" fluid class="ma-0 pa-0">
+    <v-row no-gutters class="justify-center ma-0 pa-0">
       <v-col class="homeBase ma-0 pa-0">
-        <HomeCard :fit-phone="true"></HomeCard>
+        <HomeCard :fit-phone="fitPhone" :page="1"></HomeCard>
       </v-col>
     </v-row>
-  </v-container>
-  <v-container v-else id="aboutBase" fluid>
-    <v-row>
-      <v-col class="homeBase ma-auto">
-        <HomeCard :fit-phone="false"></HomeCard>
+    <div class="text-center" style="page-break-after: always; width: 100%">下续</div>
+    <br />
+    <v-row no-gutters class="justify-center ma-0 pa-0">
+      <v-col class="homeBase ma-0 pa-0">
+        <HomeCard :fit-phone="fitPhone" :page="2"></HomeCard>
       </v-col>
     </v-row>
+    <div class="text-center" style="width: 100%">
+      <span>此文档网页版见 </span>
+      <a href="https://cv.riddma.com" rel="noopener" target="_blank" class="secondary--text">cv.riddma.com</a>
+    </div>
   </v-container>
 </template>
 

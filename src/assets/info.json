@@ -1,0 +1,71 @@
+{
+  "titleInfo": {
+    "name": "马嘉骥",
+    "phone": "156-0692-2768",
+    "wechat": "RiddMa",
+    "email": "riddma42@gmail.com",
+    "github": "github.com/RiddMa"
+  },
+  "eduBG": {
+    "univ": "北京邮电大学",
+    "degree": "本科",
+    "major": "计算机科学与技术",
+    "school": "计算机学院（国家示范性软件学院）",
+    "span": "2018年9月 - 2022年7月",
+    "course": "数据结构 / 计算机组成原理 / 操作系统 / 计算机网络 / 计算机系统结构 / 数据库系统原理 / 软件工程 / 编译原理与技术 / 大数据技术基础 / Linux 开发环境及应用 / 现代交换原理 / 面向对象程序设计实践 / Python 程序设计 等",
+    "english": "CET-6：589分；具备良好的口语交流能力与文献阅读能力"
+  },
+  "skills": {
+    "language": "具备使用 Java / C / C++ / Python / JavaScript / Dart / Swift / Scala 等语言的经验。",
+    "frontend": "具备使用 HTML / CSS / JavaScript，配合 Vue.js / Vuetify / AntD 等框架构建渐进式单页应用的经验。",
+    "backend": "具备使用 Java / Node.js / Python 搭建轻量后端，使用 Koa2 框架 / JsonWebToken / Scrpyt 实现用户注册与会话管理，配合 MongoDB 进行数据增删查改的经验。",
+    "client": {
+      "a": "具备使用 C++ 配合 QT 框架、使用 Java 配合 Swing / JavaFX 框架进行桌面客户端开发的经验；",
+      "b": "具备使用 Dart 配合 Flutter 框架进行移动端跨平台原型开发、使用 Swift 配合 SwiftUI 进行苹果原生跨平台原型开发、使用 Java 进行安卓应用原型开发的经验。"
+    },
+    "database": {
+      "a": "具备使用 MySQL / SQLite / MongoDB 等 SQL 与 noSQL 数据库并封装 ORM 访问的经验；",
+      "b": "具备使用 Hadoop / Spark 与 Zookeeper / Kafka 进行分布式大数据流处理分析的经验。"
+    },
+    "games": "具备图形学入门知识。具备使用 Blender 进行雕刻、建模、UV、材质、骨骼处理；使用 Unreal Engine 配合 Visual Studio 进行 TPS 游戏战斗系统、AI 系统、UI 系统原型开发的经验。",
+    "others": "具备使用 Linux / macOS，使用 Git / Markdown / LaTeX / Conda / Postman / Wireshark / Jupyter Notebook / VMware 等的经验。"
+  },
+  "projects": {
+    "magn": {
+      "name": "MAG(N)影评记录",
+      "desc": "——独立全栈开发 B/S 架构项目“MAG(N)影评记录”，使用技术 Vue.js / Node.js / MongoDB 等 ",
+      "situation": "针对豆瓣5星制评分粒度过粗等问题，调研并设计了从4个维度进行10星评分的评分系统，围绕该评分系统，构建了数据录入、界面展示、用户系统、会话管理、加密持久化、截图生成等功能。",
+      "work1": "界面交互方面，使用 Vuetify 框架构建简洁友好的影评记录、列表展示、详情展示界面，并使用 G2Plot 绘图库的雷达图呈现4维度评分。大量使用 GSAP 动画库与 CSS 动画打造流畅优雅的使用体验，使用网格系统与 Vue 指令构建自适应元素样式的响应式布局，并适配移动端与桌面端，配合 Sass 美化页面外观。",
+      "work2": "代码架构方面，贯彻 MVVM 架构并使用 Vuex 构建数据驱动的响应式页面有效降低开发复杂度，使用 Webpack Treeshaking 与懒加载配合 gzip 优化页面首次载入性能，使用 Service Worker 进行离线缓存优化后续载入性能。",
+      "work3": "后端方面，使用 Koa2 框架设计实现 RESTful 风格的 API，实现基于 JsonWebToken 的用户注册与会话管理系统，并将用户数据使用 Scrypt 加密存储在 MongoDB 中持久化。",
+      "website": "使用 Nginx 部署时，配置 SSL 证书并将 Http 重定向至 Https。目前运行于个人网站",
+      "link": "riddma.com"
+    },
+    "hotelAC": {
+      "name": "基于 B/S 架构的酒店空调控制计费与管理系统",
+      "desc": "——使用技术 Vue.js / Python / MySQL 等（软件工程课程合作项目）",
+      "situation": "小组合作使用 Vue.js / iViewUI 与 Python / Flask 设计并实现基于 B/S 架构的酒店空调控制计费与管理系统，具备顾客、管理员、前台、经理四个角色的界面及功能。",
+      "work1": "遵循软件工程的瀑布流生命周期模型开发原则，小组先后进行了需求分析、技术选型、性能评估、时间及人力资源安排、用户需求说明及领域模型设计、用例模型设计、动态结构设计、代码编写、测试及验收。通过文档控制实现有序的组内及组间协作。",
+      "work2": "本人担任了整体项目统筹、小组合作对接、接口报文设计、用户认证逻辑设计、前端界面设计、前端逻辑与网络接口实现等重要工作，最终项目顺利完成课程验收。"
+    },
+    "others": {
+      "todo": "独立使用 Dart / Flutter 开发移动跨平台 Todo 应用原型。",
+      "boardgames": "两人合作使用 Java / JavaFX 实现热门桌游在线浏览与对局记录桌面端应用。",
+      "e": "使用 Python 与 Jupyter Notebook 进行 MNIST 手写数字识别、K-Means 聚类算法。",
+      "f": "使用 Requests / Scrapy 进行数据爬取、使用 Pandas + Numpy 进行数据清洗与分析，使用 Matplotlib 进行可视化呈现。",
+      "g": "使用 Hadoop / Spark / Kafka，使用 Zookeeper 在多台服务器上进行分布式大数据流处理分析。",
+      "h": "小组合作使用 Flex + Bison 实现简易 Pascal-S 到 C 源码转换编译器。",
+      "i": "使用 CPP + Qt 可视化展示旅行商问题的动态规划算法。"
+    }
+  },
+  "hobbies": {
+    "photography": {
+      "a": "热爱摄影，具备 Photoshop / Lightroom / Premiere / AfterEffects / DaVinci / FCPX 等软件的使用经验。",
+      "b": "任校“北邮青年新媒体中心”干事，曾与 up 主“老师好我叫何同学”合作参与微电影拍摄，参与剧本构思讨论、担任主机位摄像师与后期剪辑调色工作。"
+    },
+    "blueprint": {
+      "a": "参与项目获第六届中国国际“互联网+”大学生创新创业大赛总决赛银奖。在“青年红色筑梦之旅”赛道中，深入贵州省长顺县山区、实地走访调研多位当地居民，切身体会到国家全面脱贫攻坚的努力与成果。",
+      "b": "本人在项目中参与参赛视频的筹划与实施，与团队共同完成前期策划、实地调研、视频记录、后期剪辑等工作，为项目获奖作出重要贡献。"
+    }
+  }
+}
