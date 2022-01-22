@@ -225,7 +225,7 @@
 import info from "@/assets/info.json";
 
 export default {
-  name: "HomeCard",
+  name: "HomeCard4Print",
   props: {
     fitPhone: {
       required: true,
@@ -262,6 +262,7 @@ export default {
 };
 </script>
 
+<style scoped src="../styles/cardBase.css"></style>
 <style scoped>
 .homeCard {
   border-color: var(--v-primary-base);

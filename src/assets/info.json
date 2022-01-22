@@ -16,19 +16,19 @@
     "english": "CET-6：589分；具备良好的口语交流能力与文献阅读能力"
   },
   "skills": {
-    "language": "具备使用 Java / C / C++ / Python / JavaScript / Dart / Swift / Scala 等语言的经验。",
-    "frontend": "具备使用 HTML / CSS / JavaScript，配合 Vue.js / Vuetify / AntD 等框架构建渐进式单页应用的经验。",
-    "backend": "具备使用 Java / Node.js / Python 搭建轻量后端，使用 Koa2 框架 / JsonWebToken / Scrpyt 实现用户注册与会话管理，配合 MongoDB 进行数据增删查改的经验。",
+    "language": "具备使用 Java / C / C++ / Python / JavaScript / Dart / Swift / Scala 等语言的经历。",
+    "frontend": "具备使用 HTML / CSS / JavaScript，配合 Vue.js / Vuetify / AntD 等框架构建渐进式单页应用的经历。",
+    "backend": "具备使用 Java / Node.js / Python 搭建轻量后端，使用 Koa2 框架 / JsonWebToken / Scrpyt 实现用户注册与会话管理，配合 MongoDB 进行数据增删查改的经历。",
     "client": {
-      "a": "具备使用 C++ 配合 QT 框架、使用 Java 配合 Swing / JavaFX 框架进行桌面客户端开发的经验；",
-      "b": "具备使用 Dart 配合 Flutter 框架进行移动端跨平台原型开发、使用 Swift 配合 SwiftUI 进行苹果原生跨平台原型开发、使用 Java 进行安卓应用原型开发的经验。"
+      "a": "具备使用 C++ 配合 QT 框架、使用 Java 配合 Swing / JavaFX 框架进行桌面客户端开发的经历；",
+      "b": "具备使用 Dart 配合 Flutter 框架进行移动端跨平台原型开发、使用 Swift 配合 SwiftUI 进行苹果原生跨平台原型开发、使用 Java 进行安卓应用原型开发的经历。"
     },
     "database": {
-      "a": "具备使用 MySQL / SQLite / MongoDB 等 SQL 与 noSQL 数据库并封装 ORM 访问的经验；",
-      "b": "具备使用 Hadoop / Spark 与 Zookeeper / Kafka 进行分布式大数据流处理分析的经验。"
+      "a": "具备使用 MySQL / SQLite / MongoDB 等 SQL 与 noSQL 数据库并封装 ORM 访问的经历；",
+      "b": "具备使用 Hadoop / Spark 与 Zookeeper / Kafka 进行分布式大数据流处理分析的经历。"
     },
-    "games": "具备图形学入门知识。具备使用 Blender 进行雕刻、建模、UV、材质、骨骼处理；使用 Unreal Engine 配合 Visual Studio 进行 TPS 游戏战斗系统、AI 系统、UI 系统原型开发的经验。",
-    "others": "具备使用 Linux / macOS，使用 Git / Markdown / LaTeX / Conda / Postman / Wireshark / Jupyter Notebook / VMware 等的经验。"
+    "games": "具备图形学入门知识。具备使用 Blender 进行雕刻、建模、UV、材质、骨骼处理；使用 Unreal Engine 配合 Visual Studio 进行 TPS 游戏战斗系统、AI 系统、UI 系统原型开发的经历。",
+    "others": "具备使用 Linux / macOS，使用 Git / Markdown / LaTeX / Conda / Postman / Wireshark / Jupyter Notebook / VMware 等的经历。"
   },
   "projects": {
     "magn": {
@@ -60,7 +60,7 @@
   },
   "hobbies": {
     "photography": {
-      "a": "热爱摄影，具备 Photoshop / Lightroom / Premiere / AfterEffects / DaVinci / FCPX 等软件的使用经验。",
+      "a": "热爱摄影，具备 Photoshop / Lightroom / Premiere / AfterEffects / DaVinci / FCPX 等软件的使用经历。",
       "b": "任校“北邮青年新媒体中心”干事，曾与 up 主“老师好我叫何同学”合作参与微电影拍摄，参与剧本构思讨论、担任主机位摄像师与后期剪辑调色工作。"
     },
     "blueprint": {
