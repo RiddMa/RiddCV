@@ -15,7 +15,7 @@
               </span>
             </v-row>
             <v-row no-gutters class="justify-center secondary--text">
-              <span>Github：</span>
+              <span>GitHub：</span>
               <a href="https://github.com/RiddMa" rel="noopener" target="_blank" class="secondary--text">
                 {{ info.titleInfo.github }}
               </a>
