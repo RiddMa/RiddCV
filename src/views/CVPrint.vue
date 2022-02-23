@@ -5,14 +5,14 @@
         <CVCard4Print :fit-phone="fitPhone" :page="1"></CVCard4Print>
       </v-col>
     </v-row>
-    <div class="text-center" style="page-break-after: always; width: 100%">下续</div>
+    <div class="text-center mt-2" style="page-break-after: always; width: 100%">下 续</div>
     <br />
     <v-row no-gutters class="justify-center ma-0 pa-0">
       <v-col class="homeBase ma-0 pa-0">
         <CVCard4Print :fit-phone="fitPhone" :page="2"></CVCard4Print>
       </v-col>
     </v-row>
-    <div class="text-center" style="width: 100%">
+    <div class="text-center my-4" style="width: 100%">
       <span>此文档网页版见 </span>
       <a href="https://cv.riddma.com" rel="noopener" target="_blank" class="secondary--text">cv.riddma.com</a>
     </div>

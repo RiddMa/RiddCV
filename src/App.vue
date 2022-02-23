@@ -1,7 +1,7 @@
 <template>
   <v-app style="position: relative">
     <template v-if="!isSSR">
-      <v-app-bar id="appBar" class="appBar" app light dense elevation="4" color="rgba(255, 255, 255, 0.5)">
+      <v-app-bar id="appBar" class="appBar" v-if="!isPrint" app light dense elevation="4" color="rgba(255, 255, 255, 0.5)">
         <v-tabs class="navTab" v-model="activeTab" centered>
           <v-tab to="/" v-bind:key="0" class="TAB grow">
             <span class="tabText">
@@ -69,6 +69,9 @@ export default {
     ...mapState({
       isSSR: (state) => state.isSSR,
     }),
+    isPrint() {
+      return this.$route.name === "Print";
+    },
   },
   methods: {
     routeAppearCaller(el, done) {
