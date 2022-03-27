@@ -27,8 +27,8 @@
       "a": "具备使用 MySQL / SQLite / MongoDB 等 SQL 与 noSQL 数据库并封装 ORM 访问的经历；",
       "b": "具备使用 Hadoop / Spark 与 Zookeeper / Kafka 进行分布式大数据流处理分析的经历。"
     },
-    "games": "具备图形学入门知识。具备使用 Blender 进行雕刻、建模、UV、材质、骨骼处理；使用 Unreal Engine 配合 Visual Studio 进行 TPS 游戏战斗系统、AI 系统、UI 系统原型开发的经历。",
-    "others": "具备使用 Linux / macOS，使用 Git / Markdown / LaTeX / Conda / Postman / Wireshark / Jupyter Notebook / VMware 等的经历。"
+    "games": "具备图形学入门知识。具备使用 Blender 进行雕刻、建模、UV、材质、骨骼处理，使用 Unreal Engine 进行 TPS 游戏战斗系统、AI 行为树、UI 界面原型开发的经历。",
+    "others": "具备使用 Linux / macOS，Git / Docker / Nginx / Markdown / Postman / Wireshark / Jupyter Notebook / VMware 等工具的经历。"
   },
   "projects": {
     "magn": {
@@ -50,16 +50,16 @@
     },
     "hotelAC": {
       "name": "基于 B/S 架构的酒店空调控制计费与管理系统",
-      "desc": "——使用技术 Vue.js / Python / MySQL 等（软件工程课程合作项目）",
+      "desc": "——使用 Vue.js / Python / MySQL 等（软件工程课程合作项目）",
       "situation": "小组合作使用 Vue.js / iViewUI 与 Python / Flask 设计并实现基于 B/S 架构的酒店空调控制计费与管理系统，具备顾客、管理员、前台、经理四个角色的界面及功能。",
       "work1": "遵循软件工程的瀑布流生命周期模型开发原则，小组先后进行了需求分析、技术选型、性能评估、时间及人力资源安排、用户需求说明及领域模型设计、用例模型设计、动态结构设计、代码编写、测试及验收。通过文档控制实现有序的组内及组间协作。",
       "work2": "本人担任了整体项目统筹、小组合作对接、接口报文设计、用户认证逻辑设计、前端界面设计、前端逻辑与网络接口实现等重要工作，最终项目顺利完成课程验收。"
     },
     "others": {
-      "todo": "独立使用 Dart / Flutter 开发移动跨平台 Todo 应用原型。",
+      "todo": "使用 Dart / Flutter 开发移动跨平台 Todo 应用原型。",
       "boardgames": "两人合作使用 Java / JavaFX 实现热门桌游在线浏览与对局记录桌面端应用。",
-      "e": "使用 Python 与 Jupyter Notebook 进行 MNIST 手写数字识别、K-Means 聚类算法。",
-      "f": "使用 Requests / Scrapy 进行数据爬取、使用 Pandas + Numpy 进行数据清洗与分析，使用 Matplotlib 进行可视化呈现。",
+      "e": "使用 Jupyter Notebook 进行 MNIST 手写数字识别、实现 K-Means 聚类算法等。",
+      "f": "使用 Requests / Scrapy 进行数据爬取、使用 Pandas 进行数据清洗与分析，使用 Matplotlib 进行可视化呈现。",
       "g": "使用 Hadoop / Spark / Kafka，使用 Zookeeper 在多台服务器上进行分布式大数据流处理分析。",
       "h": "小组合作使用 Flex + Bison 实现简易 Pascal-S 到 C 源码转换编译器。",
       "i": "使用 CPP + Qt 可视化展示旅行商问题的动态规划算法。"

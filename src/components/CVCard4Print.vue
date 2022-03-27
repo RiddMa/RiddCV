@@ -153,6 +153,7 @@
             <a href="https://riddma.com" rel="noopener" target="_blank" class="ml-1 mt-2">
               {{ info.projects.magn.link }}
             </a>
+            <span class="text-start mt-2">。 </span>
           </v-row>
         </v-container>
 

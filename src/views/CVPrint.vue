@@ -15,6 +15,7 @@
     <div class="text-center my-4" style="width: 100%">
       <span>此文档网页版见 </span>
       <a href="https://cv.riddma.com" rel="noopener" target="_blank" class="secondary--text">cv.riddma.com</a>
+      <span>。 </span>
     </div>
   </v-container>
 </template>
