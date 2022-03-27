@@ -160,6 +160,20 @@
           <v-row no-gutters class="mt-4">
             <v-row no-gutters>
               <v-col cols="5" class="text-start">
+                <span class="font-weight-bold">{{ info.projects.graduation.name }}</span>
+              </v-col>
+              <v-col cols="7" class="text-end">
+                <span>{{ info.projects.graduation.desc }}</span>
+              </v-col>
+            </v-row>
+            <span class="text-start mt-2">{{ info.projects.graduation.situation }}</span>
+            <span class="text-start mt-2">{{ info.projects.graduation.work1 }}</span>
+            <span class="text-start mt-2">{{ info.projects.graduation.note }}</span>
+          </v-row>
+
+          <v-row no-gutters class="mt-4">
+            <v-row no-gutters>
+              <v-col cols="5" class="text-start">
                 <span class="font-weight-bold">{{ info.projects.hotelAC.name }}</span>
               </v-col>
               <v-col cols="7" class="text-end">
